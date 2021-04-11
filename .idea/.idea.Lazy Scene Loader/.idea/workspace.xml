@@ -19,18 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c10b12a-002d-4a06-a58d-e35ed5c87555" name="Default Changelist" comment="" />
+    <list default="true" id="1c10b12a-002d-4a06-a58d-e35ed5c87555" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazyScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazyScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/Resources/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/Resources/Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/67055F1B-E365-4E2A-9872-54D5437EE5B8/db/a2e704c1/SceneAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneCategorys.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazyScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneCategorys.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneLoader.cs" />
       </list>
     </option>
@@ -45,6 +64,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -75,8 +100,20 @@
       <option name="presentableId" value="Default" />
       <updated>1603888749876</updated>
       <workItem from="1603888752134" duration="19000" />
+      <workItem from="1617598916088" duration="729000" />
+      <workItem from="1617793088186" duration="2636000" />
+      <workItem from="1617941091655" duration="3242000" />
+      <workItem from="1617955571873" duration="7857000" />
+      <workItem from="1618023046615" duration="8083000" />
+      <workItem from="1618037844355" duration="2537000" />
+      <workItem from="1618043651275" duration="70000" />
+      <workItem from="1618043740718" duration="9783000" />
+      <workItem from="1618104729683" duration="7547000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -90,8 +127,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog" timestamp="1618057685603">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.360.1920.1080/2560.360.1920.1080@0.0.2560.1400" timestamp="1618057685603" />
+    <state x="2647" y="360" width="911" height="1168" maximized="true" key="dock-window-1" timestamp="1618046974898">
+      <screen x="2560" y="360" width="1920" height="1080" />
+    </state>
+    <state x="2647" y="360" width="911" height="1168" maximized="true" key="dock-window-1/0.0.2560.1400/-1920.360.1920.1080/2560.360.1920.1080@2560.360.1920.1080" timestamp="1618046974898" />
+    <state x="1012" y="461" width="672" height="678" key="search.everywhere.popup" timestamp="1618043703312">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1012" y="461" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.360.1920.1080/2560.360.1920.1080@0.0.2560.1400" timestamp="1618043703312" />
   </component>
 </project>
