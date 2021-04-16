@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c10b12a-002d-4a06-a58d-e35ed5c87555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lazy Scene Loader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazyScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazyScene.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/LazySceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/Resources/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/LazyHelpers/Resources/Logo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +99,17 @@
       <workItem from="1618037844355" duration="2537000" />
       <workItem from="1618043651275" duration="70000" />
       <workItem from="1618043740718" duration="9783000" />
-      <workItem from="1618104729683" duration="7547000" />
+      <workItem from="1618104729683" duration="8195000" />
+      <workItem from="1618537003077" duration="299000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Lazy Scene loader to version 2.0">
+      <created>1618147357924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618147357924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,12 +131,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Updated Lazy Scene loader to version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Lazy Scene loader to version 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog" timestamp="1618057685603">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="VCS.FileHistoryDialog/0.0.2560.1400/-1920.360.1920.1080/2560.360.1920.1080@0.0.2560.1400" timestamp="1618057685603" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1618147368447">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1080/2560.360.1920.1080@0.0.2560.1400" timestamp="1618147368447" />
     <state x="2647" y="360" width="911" height="1168" maximized="true" key="dock-window-1" timestamp="1618046974898">
       <screen x="2560" y="360" width="1920" height="1080" />
     </state>

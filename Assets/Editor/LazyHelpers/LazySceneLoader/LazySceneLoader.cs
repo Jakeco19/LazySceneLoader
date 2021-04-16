@@ -431,16 +431,29 @@ namespace LazyHelper.LazySceneLoader
                             Selection.activeObject = AssetDatabase.LoadAssetAtPath<UnityEngine.Object>(AssetDatabase.GetAssetPath(T));
                         }
 
+                        if (GUILayout.Button("Load Additive", GUILayout.MaxHeight(20), GUILayout.MaxWidth(90)))
+                        {
+                            if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+                            {
+                                Debug.LogWarning("New Scene Loaded");
+                                EditorSceneManager.OpenScene(AssetDatabase.GetAssetPath(T), OpenSceneMode.Additive);
+                            }
+                            else
+                            {
+                                Debug.LogWarning("Scene Load Cancelled");
+                            }
+                        }
+                        
                         if (GUILayout.Button("Load", GUILayout.MaxHeight(20), GUILayout.MaxWidth(50)))
                         {
                             if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
                             {
-                                Debug.LogWarning("Scene Saved New Scene Loaded");
+                                Debug.LogWarning("New Scene Loaded");
                                 EditorSceneManager.OpenScene(AssetDatabase.GetAssetPath(T));
                             }
                             else
                             {
-                                Debug.LogWarning("Scene Save Cancelled");
+                                Debug.LogWarning("Scene Load Cancelled");
                             }
                         }
 
@@ -1155,7 +1168,7 @@ namespace LazyHelper.LazySceneLoader
                 allItems = AssetDatabase.LoadAssetAtPath("Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset", typeof(LazyScene)) as LazyScene;
             }
             
-            EditorUtility.SetDirty(allItems);
+            EditorUtility.SetDirty(allItems.allCategorys[categoryNum]);
 
             if (!allItems.allCategorys[categoryNum].Scenes.Contains(scene))
             {
