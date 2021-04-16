@@ -457,26 +457,24 @@ namespace LazyHelper.LazySceneLoader
                             }
                         }
 
-                        // if (!isAllCategorys)
-                        // {
-                            if (GUILayout.Button("X", GUILayout.Width(20), GUILayout.Height(20)))
+                        if (GUILayout.Button("X", GUILayout.Width(20), GUILayout.Height(20)))
+                        {
+                            EditorUtility.SetDirty(_Items);
+                            for (int i = 0; i < _Items.activeCategorys.Count; i++)
                             {
-                                EditorUtility.SetDirty(_Items);
-                                for (int i = 0; i < _Items.activeCategorys.Count; i++)
+                                for (int k = 0; k < _Items.activeCategorys[i].Scenes.Count; k++)
                                 {
-                                    for (int k = 0; k < _Items.activeCategorys[i].Scenes.Count; k++)
+                                    if (_Items.activeCategorys[i].Scenes.Contains(allSceneAssets[j]))
                                     {
-                                        if (_Items.activeCategorys[i].Scenes.Contains(allSceneAssets[j]))
-                                        {
-                                            _Items.activeCategorys[i].Scenes.Remove(allSceneAssets[j]);
-                                        }
+                                        _Items.activeCategorys[i].Scenes.Remove(allSceneAssets[j]);
                                     }
                                 }
-                                
-
-                                AssetDatabase.SaveAssets();
                             }
-                        // }
+
+
+                            AssetDatabase.SaveAssets();
+                        }
+
                         GUILayout.EndHorizontal();
 
                         #endregion
@@ -544,9 +542,13 @@ namespace LazyHelper.LazySceneLoader
         
         public void AddNewCategory()
         {
+            EditorUtility.SetDirty(_Items);
+            
             LazySceneCategorys tempItem = CreateInstance(typeof(LazySceneCategorys)) as LazySceneCategorys;
             AssetDatabase.CreateAsset(tempItem, "Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Categories/"+ Random.Range(0,99999) +".asset");
             _Items.allCategorys.Add(tempItem);
+            
+            AssetDatabase.SaveAssets();
         }
 
         #endregion
@@ -802,8 +804,10 @@ namespace LazyHelper.LazySceneLoader
                 GUILayout.FlexibleSpace();
                 if (GUILayout.Button("Delete Category"))
                 {
+                    EditorUtility.SetDirty(allItems);
                     AssetDatabase.DeleteAsset(AssetDatabase.GetAssetPath(allItems.allCategorys[i]));
                     allItems.allCategorys.RemoveAt(i);
+                    AssetDatabase.SaveAssets();
                 }
                 GUILayout.EndHorizontal();
             }
@@ -913,6 +917,8 @@ namespace LazyHelper.LazySceneLoader
                 allItems = AssetDatabase.LoadAssetAtPath("Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Scenes.asset", typeof(LazyScene)) as LazyScene;
             }
             
+            EditorUtility.SetDirty(allItems);
+            
             LazySceneCategorys tempItem = CreateInstance(typeof(LazySceneCategorys)) as LazySceneCategorys;
             tempItem.categoryDescription = _categoryDescription;
             tempItem.categoryTitle = _categoryName;
@@ -932,6 +938,7 @@ namespace LazyHelper.LazySceneLoader
             AssetDatabase.CreateAsset(tempItem, "Assets/Editor/LazyHelpers/LazySceneLoader/Resources/Categories/"+ assetName +".asset");
             allItems.allCategorys.Add(tempItem);
             
+            AssetDatabase.SaveAssets();
             LazySceneLoaderCategoryWindow._window.Close();
         }
         
